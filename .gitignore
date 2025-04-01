@@ -1,0 +1,8 @@
+./web/node_modules
+./web/dist
+./web/.cache
+./web/.env
+./web/.env.local
+./web/.env.development
+./web/.env.production
+./web/.env.test
