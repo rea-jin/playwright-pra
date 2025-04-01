@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: ./docker  # Dockerfile があるフォルダ
+    container_name: apache_php
+    ports:
+      - "1000:80"  # ホストの8080ポートをコンテナの80番にマッピング
+    volumes:
+      - ./web:/var/www/html  # `web` フォルダを `/var/www/html` にマウント
+    restart: always

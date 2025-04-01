@@ -6,3 +6,4 @@
 ./web/.env.development
 ./web/.env.production
 ./web/.env.test
+*/node_modules
