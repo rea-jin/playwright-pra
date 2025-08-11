@@ -7,6 +7,9 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: '名前:' }).press('Tab');
   await page.getByRole('textbox', { name: 'メール:' }).fill('aaaa@email.com');
   await page.getByRole('textbox', { name: 'メール:' }).press('Tab');
+  await page.getByRole('textbox', { name: '誕生日:' }).fill('1990-01-01');
+  await page.getByRole('textbox', { name: '誕生日:' }).press('Tab');
   await page.getByRole('textbox', { name: 'メッセージ:' }).fill('test');
+  
   await page.getByRole('button', { name: '送信' }).click();
 });
