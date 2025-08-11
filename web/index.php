@@ -35,7 +35,7 @@
     <h1>PHP & JavaScript サンプル</h1>
     <label>名前: <input type="text" id="name" placeholder="名前を入力"></label><br>
     <label>メール: <input type="email" id="email" placeholder="メールアドレスを入力"></label><br>
-    <label>誕生日: <input type="date" id="birthday"></label><br>
+    <label>誕生日: <input type="date" id="birthday" placeholder="誕生日を選択"></label><br>
     <label>メッセージ: <textarea id="message" placeholder="メッセージを入力"></textarea></label><br>
     <button onclick="sendData()">送信</button>
     <p id="result"></p>
